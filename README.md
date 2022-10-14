@@ -18,7 +18,7 @@
 - MongoDB
 - Redis
 ### Message Broker
-- Redis
+- RabbitMQ
 - Maas Transit
 ### Logging
 - Elastic
