@@ -54,6 +54,7 @@ namespace Api.Controllers.v1
         }
 
         [HttpDelete]
+        [Route("{id:int}")]
         public async Task<IActionResult> DeleteAsync(int id)
         {
             var payment = await _paymentService.GetByIdAsync(id);
